@@ -1,0 +1,17 @@
+.container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 145px 1fr 110px;
+    gap: 55px;
+}
+
+
+.logo{
+    display: flex;
+}
+
+
+.menu__list{
+    display: flex;
+    justify-content: flex-end;
+}
