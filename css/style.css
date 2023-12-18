@@ -1,17 +1,27 @@
 .container{
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: 145px 1fr 110px;
+    grid-template-columns: 10fr 1fr 9fr;
     gap: 55px;
+    background-color: red;
+    margin-right: 215px;
+    margin-left: 215px;
 }
 
 
 .logo{
-    display: flex;
+    /* display: flex; */
 }
 
 
 .menu__list{
     display: flex;
     justify-content: flex-end;
+    list-style: none;
+    color: cornsilk;
+}
+
+
+
+.menu__item{
+    margin-right: 55px;
 }
