@@ -1,0 +1,36 @@
+.promo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: aqua;
+    grid-area: 
+    "information__beautiful-garden img"
+    "information";
+}
+
+
+.text__green-garden{
+    color: #374A3D;
+    font-family: Fredoka One;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px; /* 105.556% */
+    font-variant: small-caps;
+    grid-area: information__beautiful-garden;
+}
+
+.text__green-beatiful-garden{
+    color: #0CA941;
+    font-family: Fredoka One;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76px;
+    font-variant: small-caps;
+    grid-area: information__beautiful-garden;
+}
+
+.img{
+    grid-area: img;
+}
+
