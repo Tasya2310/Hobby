@@ -1,4 +1,4 @@
-/* .container{
+/* .header__container{
     display: grid;
     grid-template-columns: 1fr 10fr;
     gap: 30px;
@@ -7,7 +7,26 @@
 } */
 
 
-.container .header__flower{
+.container{
+    max-width: 1600px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+.wrapper__header{
+    background: ;
+    /* max-width: 1600px; */
+    /* width: 1600px; */
+}
+
+
+.header{
+
+}
+
+
+.header__container .header__flower{
     /* margin-left: -200px; */
     position: absolute;
     left: 0;
@@ -18,7 +37,7 @@
     display: grid;
     grid-template-columns: 10fr 1fr 9fr;
     gap: 55px;
-    background-color: red;
+    /* background-color: red; */
     align-items: start;
     margin-left: 135px;
 }
