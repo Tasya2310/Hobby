@@ -6,6 +6,8 @@
     <title>Hobby</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/advantages.css">
+    <link rel="stylesheet" href="css/about__us.css">
 </head>
 <body>
     <div class="wrapper__header">
@@ -18,32 +20,67 @@
                         <h1>Hobby</h1>
                     </div>
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="">Home</a></li>
-                        <li class="menu__item"><a href="">About Us</a></li>
-                        <li class="menu__item"> <a href="">Service</a></li>
-                        <li class="menu__item"><a href="">Contact</a></li>
+                        <li class="menu__item"><a class="menu_item-link" href="#">Home</a></li>
+                        <li class="menu__item"><a class="menu_item-link" href="#advantages">Advantages</a></li>
+                        <li class="menu__item"><a class="menu_item-link" href="#about-us">About&nbspUs</a></li>
+                        <li class="menu__item"><a class="menu_item-link" href="#">Service</a></li>
+                        <li class="menu__item"><a class="menu_item-link" href="#">Contact</a></li>
                     </ul>
                     <div class="login">
-                        <a href="" class="login__button">Login</a>
+                        <a href="#" class="login__button">Login</a>
                     </div>
                 </div>
             </div>
         </header>
+    <main>
         <section class="promo">
             <div class="container promo__container">
                 <div class="promo__description">
                     <h2 class="text__green-garden">Make a <span class="text__green-beautiful-garden">Beatiful Garden</span> with Your own Hand</h2>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</p>
-                    <a href="">Shop Now</a>
+                    <div class="promo__link-wrapper">
+                        <a href="#">Shop Now</a>
+                    </div>
                 </div>
                 <div class="promo__img">
-                    <!-- <div class="promo__img-bg"></div> -->
                     <img class="img" src="img/woman__whith-flower.png" alt="">
                 </div>
             </div>
         </section> 
-    </div>
-    <main>
+        <section class="advantages" id="advantages">
+            <div class="container advantages__container">
+                <div class="advantages__info-wrapper">
+                    <h2>We Give Awesome Landscape Service.</h2>
+                    <p class="">It is a long established fact that a reader will be distracted by the thing.</p>
+                </div>
+                <ul class="advantages__list">
+                    <li class="advantages__item">
+                        <p class="advantages__item-number">25+</p>
+                        <p class="advantages__item-text">Complete Project Per Month.</p>
+                    </li>
+                    <li class="advantages__item">
+                        <p class="advantages__item-number">10+</p>
+                        <p class="advantages__item-text">Years Practical Experience.</p>
+                    </li>
+                    <li class="advantages__item">
+                        <p class="advantages__item-number">60+</p>
+                        <p class="advantages__item-text">Awesome Team Members.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="about-us" id="#about-us">
+            <div class="about-us__container">
+                <div class="about-us__watering-flowers-img">
+                    <img src="/img/women__watering-flowers.png" alt="" width="635" height="490">
+                </div>
+                <div class="about-us__information">
+                    <h2>We Are Professional Gardener!</h2>
+                    <p>Morbi magna metus, scelerisque at risus a, tristique laoreet orci. Duis posuere eros vel dui pulvinar, pulvinar molestie erat iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</p>
+                </div>
+            </div>
+        </section>
     </main> 
+</div>
 </body>
 </html>

@@ -1,0 +1,22 @@
+.about-us__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+
+
+.about-us__information{
+    width: 353px;
+    height: 79.209px;
+}
+
+
+.about-us__information h2{
+    color: #374A3D;
+    font-family: "Fredoka One";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 122.222% */
+    font-variant: small-caps;
+}

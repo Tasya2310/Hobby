@@ -1,0 +1,59 @@
+.advantages__container{
+    display: grid;
+    grid-template-columns:500px 630px;
+    column-gap: 75px;
+    background-color: white;
+    padding-left: 80px;
+    /* max-width: 1170px; */
+    /* max-height: 235px; */
+    border-radius: 30px;
+    position: relative;
+}
+
+
+.advantages__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+
+.advantages__item{
+    width: 140px;
+}
+
+
+.advantages__item-number{
+    color: #0CA941;
+    font-family: Gilroy;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 42px; /* 70% */
+    font-variant: small-caps;
+}
+
+
+.advantages__info-wrapper{
+    color: #374A3D;
+    font-family: Fredoka One;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 133.333% */
+    font-variant: small-caps;
+}
+
+
+.advantages__container::before{
+    content: "";
+    position: absolute;
+    /* background-color: crimson; */
+    background-image: url("/img/plant__advantages.png");
+    width: 290px;
+    height: 350px;
+    left: -155px;
+    bottom: 0;
+}
