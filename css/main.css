@@ -50,18 +50,19 @@
 }
 
 
-.promo__description{
+.promo__description,
+.about-us__information{
     position: relative;
 }
 
 
-.promo__link-wrapper a::after{
+.link-wrapper a::after{
     margin-left: 5px;
     content: "";
     display: inline-block;
     /* position: relative; */
     /* background-color: red; */
-    background-image: url("/img/arrows.svg");
+    background-image: url("../img/arrows.svg");
     background-position: center;
     width: 17px;
     height: 10px;
@@ -70,27 +71,34 @@
 }
 
 
-.promo__description a{
+.link-wrapper a{
     border: 2px solid #0CA941;
     border-radius: 60%;
     text-decoration: none;
     padding: 10px;
 }
-
  
-.promo__description p::after{
+
+.promo__description p::after,
+.about-us__information p::after{
     content: "";
     position: absolute;
     /* top: 17px; */
     /* left: 130px; */
     bottom: 110px;
     right: 220px;
-    background-image: url("/img/arrow.png");
+    background-image: url("../img/arrow.png");
     background-position: center;
     width: 106px;
     height: 80px;
     transform: rotate(20deg);
 } 
+
+
+.about-us__information p::after{
+    bottom: -280px;
+    right: 100px;
+}
 
 
 .header__flower{

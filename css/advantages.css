@@ -51,7 +51,7 @@
     content: "";
     position: absolute;
     /* background-color: crimson; */
-    background-image: url("/img/plant__advantages.png");
+    background-image: url("../img/plant__advantages.png");
     width: 290px;
     height: 350px;
     left: -155px;
