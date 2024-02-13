@@ -1,5 +1,5 @@
-.service{
-    /* background: radial-gradient(circle, rgba(198,235,198,1) 0%, rgba(255,255,255,1) 100%); */
+.service__container{
+    margin-bottom: 200px;
 }
 
 
@@ -11,13 +11,6 @@
 .service__info{
     display: grid;
     grid-template-columns: 540px 1fr;
-    color: #374A3D;
-    font-family: Fredoka One;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px; /* 133.333% */
-    font-variant: small-caps;
 }
 
 
@@ -72,4 +65,32 @@
 
 .service__cards-item--third{
     grid-area: third;
+}
+
+
+.service p,
+.service h3,
+.service h2{
+    color: #374A3D;
+    font-family: Fredoka One;
+    /* font-size: 30px; */
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 40px; /* 133.333% */
+    font-variant: small-caps;
+}
+
+
+.service p{
+    font-size: 25px;
+}
+
+
+.service h3{
+    font-size: 30px;
+}
+
+
+.service h2{
+    font-size: 45px;
 }

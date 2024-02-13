@@ -79,19 +79,19 @@
 }
  
 
-.promo__description p::after,
-.about-us__information p::after{
+.promo__description p::after{
     content: "";
     position: absolute;
     /* top: 17px; */
     /* left: 130px; */
-    bottom: 110px;
-    right: 220px;
+    bottom: 40px;
+    right: 200px;
     background-image: url("../img/arrow.png");
     background-position: center;
     width: 106px;
     height: 80px;
-    transform: rotate(20deg);
+    transform: rotate(25deg);
+    background-repeat: no-repeat;
 } 
 
 
@@ -131,4 +131,32 @@
     height: 250px;
     left: -175px;
     bottom: -80px;
+}
+
+
+.promo p,
+.promo a{
+    color: #374A3D;
+    font-family: Fredoka One;
+    /* font-size: 30px; */
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 40px; /* 133.333% */
+    font-variant: small-caps;
+}
+
+
+.promo p,
+.promo a{
+    font-size: 25px;
+}
+
+
+.promo a:hover{
+    color:#0CA941;
+}
+
+
+.promo a:visited{
+   color:#0CA941; 
 }

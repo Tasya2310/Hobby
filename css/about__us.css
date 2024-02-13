@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 50px;
+    margin-bottom: 200px;
+
 }
 
 
@@ -20,3 +22,53 @@
     line-height: 44px; /* 122.222% */
     font-variant: small-caps;
 }
+
+
+.about-us p,
+.about-us h2,
+.about-us a{
+    color: #374A3D;
+    font-family: Fredoka One;
+    /* font-size: 30px; */
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 40px; /* 133.333% */
+    font-variant: small-caps;
+}
+
+
+.about-us p,
+.about-us a{
+    font-size: 25px;
+}
+
+
+.about-us h2{
+    font-size: 45px;
+}
+
+
+.about-us a:hover{
+    color:#0CA941;
+}
+
+
+.about-us a:visited{
+   color:#0CA941; 
+}
+
+
+.about-us__information p::after{
+    content: "";
+    position: absolute;
+    /* top: 17px; */
+    /* left: 130px; */
+    bottom: -580px;
+    right: 80px;
+    background-image: url("../img/arrow.png");
+    background-position: center;
+    width: 106px;
+    height: 80px;
+    transform: rotate(35deg);
+    background-repeat: no-repeat;
+} 

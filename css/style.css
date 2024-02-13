@@ -75,22 +75,6 @@
 }
 
 
-.menu__item a{
-    margin-right: 35px;
-    text-decoration: none;
-    padding: 5px;
-}
-
-
-.menu__item a:hover, 
-.login a:hover{
-    color: #0CA941;
-    /* text-shadow: 0 0 4px  aquamarine; */
-    text-decoration: none;
-    background-color: #a0ffc0;
-}
-
-
 .login{
     display: flex;
     align-items: center;
@@ -106,4 +90,39 @@
     /* height: 41.528px; */
     padding: 10px 32px;
     text-decoration: none;
+}
+
+
+.menu__item a,
+.login{
+    color: #374A3D;
+    font-family: Fredoka One;
+    /* font-size: 30px; */
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 40px; /* 133.333% */
+    font-variant: small-caps;
+}
+
+
+.menu__item a,
+.login{
+    font-size: 25px;
+}
+
+
+.menu__item a{
+    margin-right: 35px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.menu__item a:hover{
+    color:#0CA941;
+}
+
+
+.menu__item a:visited{
+   color:#0CA941; 
 }

@@ -8,6 +8,7 @@
     /* max-height: 235px; */
     border-radius: 30px;
     position: relative;
+    margin-bottom: 200px;
 }
 
 
@@ -36,17 +37,6 @@
 }
 
 
-.advantages__info-wrapper{
-    color: #374A3D;
-    font-family: Fredoka One;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px; /* 133.333% */
-    font-variant: small-caps;
-}
-
-
 .advantages__container::before{
     content: "";
     position: absolute;
@@ -57,3 +47,22 @@
     left: -155px;
     bottom: 0;
 }
+
+
+.advantages__item-text,
+.advantages__info-wrapper{
+    color: #374A3D;
+    font-family: Fredoka One;
+    /* font-size: 30px; */
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 40px; /* 133.333% */
+    font-variant: small-caps;
+}
+
+
+.advantages__item-text,
+.advantages__info-wrapper{
+    font-size: 25px;
+}
+

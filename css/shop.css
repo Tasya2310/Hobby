@@ -1,0 +1,67 @@
+.shop__choose-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    list-style: none;
+}
+
+.shop__list-item{
+    background-color: white;
+    border: 0.3px solid grey;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+
+.shop p,
+.shop h3,
+.shop h2,
+.shop a{
+    color: #374A3D;
+    font-family: Fredoka One;
+    /* font-size: 30px; */
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 40px; /* 133.333% */
+    font-variant: small-caps;
+}
+
+
+.shop p,
+.shop a{
+    font-size: 25px;
+    margin: 0;
+}
+
+
+.shop h3{
+    font-size: 30px;
+}
+
+
+.shop h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.shop a{
+    text-decoration: none;
+    border: 0.3px solid grey;
+    padding: 5px;
+    border-radius: 10%;
+    
+
+}
+
+
+.shop__list-item-buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.shop a:hover{
+    color: #0CA941;
+}
