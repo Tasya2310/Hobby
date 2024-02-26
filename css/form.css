@@ -1,0 +1,80 @@
+.form__info-wrapper h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.form p,
+.form h3,
+.form h2,
+.form a{
+    color: #374A3D;
+    font-family: Fredoka One;
+    /* font-size: 30px; */
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 40px; /* 133.333% */
+    font-variant: small-caps;
+}
+
+
+.form p,
+.form a{
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+
+.form__wrapper{
+    height: 81px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+
+.form__wrapper input{
+    display: block;
+    width: 600px;
+    height: 92%;
+    /* max-height: 94%; */
+    border-radius: 15px 0px 0px 15px;
+    border: 2px solid #0CA941;
+    padding-left: 34px;
+    /* padding: 25px; */
+    /* margin-left: 70px;
+    margin-top: 50px; */
+    margin: 0;
+
+}
+
+
+.form__wrapper input::placeholder{
+    /* color: red; */
+    font-size: 25px;
+
+}
+
+
+.form__wrapper button{
+    font-size: 25px;
+    /* padding: 25px 70px; */
+    width: 225px;
+    height: 100%;
+    margin-left: 10px;
+    border: 2px solid #0CA941;
+    border-radius: 15px;
+    /* margin-top: 10px; */
+    margin: 0;
+    margin-left: -14px;
+    background-color: #0CA941;
+    color: white;
+}
+
+
+.form__wrapper button:hover{
+    box-shadow: 5px 6px 19px rgba(12, 169, 65, 0.4);
+    transition: all 1s ease-out;
+}

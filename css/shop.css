@@ -50,8 +50,6 @@
     border: 0.3px solid grey;
     padding: 5px;
     border-radius: 10%;
-    
-
 }
 
 
@@ -64,4 +62,16 @@
 
 .shop a:hover{
     color: #0CA941;
+}
+
+
+.shop__list-feedback{
+    color: grey;
+    font-size: 20px;
+}
+
+
+.shop__price{
+    color: #0CA941;
+    font-size: 100px;
 }
