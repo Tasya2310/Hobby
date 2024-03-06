@@ -71,10 +71,60 @@
     margin-left: -14px;
     background-color: #0CA941;
     color: white;
+    animation: test 10s infinite linear;
 }
 
 
 .form__wrapper button:hover{
     box-shadow: 5px 6px 19px rgba(12, 169, 65, 0.4);
     transition: all 1s ease-out;
+    transform: rotate(5deg);
+}
+
+
+@keyframes test{
+    0%{ 
+        background-color: #374A3D;
+    }
+
+    10%{
+        background-color: #0CA941;
+    }
+
+    20%{
+        background-color: #374A3D;
+        }
+
+    30%{
+        background-color: #0CA941;
+    }
+
+    40%{
+        background-color: #374A3D;
+    }
+
+    50%{
+        background-color: #0CA941;
+    }
+
+    60%{
+        background-color: #374A3D;
+    }
+
+    70%{
+        background-color: #0CA941;
+    }
+
+    80%{
+        background-color: #374A3D;
+    }
+
+    90%{
+        background-color: #0CA941;
+    }
+
+    100%{
+        background-color: #374A3D;
+        background-color: #0CA941;
+    }
 }

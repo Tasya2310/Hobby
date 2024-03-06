@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     list-style: none;
-    gap: 10px;
+    gap: 20px;
     margin-bottom: 100px;
     margin-top: 100px;
 }
@@ -43,3 +43,36 @@
 .footer__list a{
     text-decoration: none;
 }
+
+
+.footer p,
+.footer h3,
+.footer h2,
+.footer a{
+    color: #374A3D;
+    font-family: Fredoka One;
+    /* font-size: 30px; */
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 40px; /* 133.333% */
+    font-variant: small-caps;
+}
+
+
+.footer p,
+.footer a{
+    font-size: 25px;
+    margin: 0;
+}
+
+
+.footer h3{
+    font-size: 25px;
+}
+
+
+.footer h2{
+    font-size: 25px;
+    text-align: center;
+}
+
